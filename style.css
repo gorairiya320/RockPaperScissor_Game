@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+}
+
+
+
+.container{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /*border: 2px solid black;*/
+}
+
+h3{
+    justify-content: center;
+}
+
+#text{
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.innerBtn{
+    height: 20vmin;
+    width: 20vmin;
+    gap: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0%;
+    
+}
+
+.Red{
+    background-color: red;
+    color: red;
+}
+.blue{
+    background-color: blue;
+     color: blue;
+}
+.green{
+    background-color: green;
+    color: green;
+}
+
+#R{
+    color: red;
+    font-size: x-large;
+}
+#P{
+    color: blue;
+    font-size: x-large;
+}
+#S{
+    color: green;
+    font-size: x-large; 
+}
+
+
+i{
+    font-weight: 800;
+    font-size: xxx-large;
+    margin-top: 1px;
+    color: white;
+}
+
+h5{
+    gap: 25px;
+}
+
+.msg-container{
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.msg2-container{
+    font-size: large;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+.result{
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+
+
