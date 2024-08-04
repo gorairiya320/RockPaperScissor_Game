@@ -20,6 +20,19 @@ body{
     /*border: 2px solid black;*/
 }
 
+h2{
+    font-style: bold;
+}
+.color1{
+    color: red;
+}
+.color2{
+    color: blue;
+}
+.color3{
+    color: green;
+}
+
 h3{
     justify-content: center;
 }
@@ -33,16 +46,32 @@ h3{
     height: 20vmin;
     width: 20vmin;
     gap: 25px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-radius: 50%;
     text-align: center;
     font-size: 0%;
     
 }
 
+.innerBtn:hover{
+    cursor: pointer;
+}
+
+.cla{
+    height: 21.5vmin;
+    width: 21.5vmin;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.cla:hover{
+    background-color: black;
+}
+
 .Red{
     background-color: red;
     color: red;
+
 }
 .blue{
     background-color: blue;
@@ -76,17 +105,18 @@ i{
 
 h5{
     gap: 25px;
+    margin-top: 10px;
 }
 
 .msg-container{
     font-size: large;
-    margin-top: 20px;
+    margin-top: 5px;
     font-weight: 800;
 }
 
 .msg2-container{
     font-size: large;
-    margin-top: 5px;
+    margin-top: 40px;
     font-weight: 800;
 }
 
